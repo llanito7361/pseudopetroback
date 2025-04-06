@@ -1,5 +1,5 @@
 require('dotenv').config()
-const server = require('./src/app');
+const server = require('./src/app.js');
 const {conn} = require('./src/config/db.js');  // Importa conn
 
 const PORT = process.env.PORT || 3000;

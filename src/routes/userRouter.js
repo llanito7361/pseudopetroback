@@ -4,7 +4,7 @@ const{
 getSingleUserHandler,
 updateUserHandler,
 removeUserHandler,
-createUserHandler,
+// createUserHandler,
 } = require('../handlers/usersHandlers')
 const userRouter = Router()
  
@@ -13,7 +13,7 @@ userRouter.get('/',getUsersHandler)
 //sigle user get
 userRouter.get('/:id',getSingleUserHandler)
 //ruta post
-userRouter.post('/',createUserHandler)
+// userRouter.post('/',createUserHandler)
 //ruta delete 
 userRouter.delete('/',removeUserHandler)
 // ruta put
